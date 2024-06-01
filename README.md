@@ -7,7 +7,6 @@ This is a simple Razor Pages web application for managing a movie database. The 
 To create a new Razor Pages web application, run the following commands:
 
 ```sh
-dotnet new webapp -o "name-of-project"
 dotnet new webapp -o RazorPagesMovie
 code -r RazorPagesMovie
 ```
@@ -36,7 +35,7 @@ dotnet linux-dev-certs install
 To run the web application, navigate to the project directory and start the application:
 
 ```sh
-cd "name-of-project"
+cd RazorPagesMovie
 dotnet watch run
 ```
 
@@ -100,9 +99,3 @@ dotnet ef database update
 ```
 
 ## This README.md file provides a comprehensive guide to setting up, running, and managing the Razor Pages Movie application. Follow these instructions to get started with your project.
-
-```css
-
-Feel free to adjust the file content as needed to fit your project specifics or preferences
-
-```
